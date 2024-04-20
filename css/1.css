@@ -190,6 +190,14 @@ a:hover{
   animation-name: fadeIn;
 }
 
+.pp-container1 {
+  height: 100px;
+  width: 100px;
+  background-image: url('../img/images.jpeg');
+  border-radius: 50%;
+  animation-name: fadeIn;
+}
+
 
 #pp {
   width: 200px;
