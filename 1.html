@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan 1</title>
+    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="css/2.css">
+</head>
+<!-- kali ini aku belajar web non simetris -->
+<body>
+    
+    <nav id="nav-komputer">
+        <div class="avatar"><img id="logo" src="../mulai dari 0/img/WIN_20230426_13_16_11_Pro-removebg-preview.png" alt="profil"></div>
+        <ul class="menu">
+            <li><a href="#sekilas">Sekilas</a></li>
+            <li><a href="#selengkapnya">Selengkapnya</a></li>
+            <li><a href="#pencapaian">Pencapaian</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <nav id="nav-mobile">
+        <div class="avatar"><img id="logo" src="./img/WIN_20230426_13_16_11_Pro-removebg-preview.png" alt="profil"></div>
+        <div class="menu-hp">
+            <div class="aduhai" onclick="toggleMenu()">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+            <div class="menu-link">
+                <li><a href="#sekilas" onclick="ToggleMenu()">Sekilas</a></li>
+                <li><a href="#selengkapnya" onclick="ToggleMenu()">Selengkapnya</a></li>
+                <li><a href="#pencapaian" onclick="ToggleMenu()">Pencapaian</a></li>
+                <li><a href="#kontak" onclick="ToggleMenu()">Kontak</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="pp-container">
+            <img id="pp" src="./img/my.png" alt="my" class="center">
+        </div>
+        <div class="tulisan">
+            <p class="text-1">Hello, i'm</p>
+            <h1 class="title">Arofan Nurhadi</h1>
+            <p class="text-2">newbie people</p>
+            <div class="tombol_size">
+                <button class="tombol" onclick="location.href ='#kontak'" >Hubungi</button>
+            </div>
+            <div id="sosmed">
+                <img src="./img/Instagram_icon.png" class="icon" alt="my istagram"
+                onclick="location.href='https://www.youtube.com/watch?v=ldwlOzRvYOU&t=2572s'">
+                <img src="./img/wa_icon.png" class="icon" alt="my wa" onclick="location.href='https://wa.me/+6283162365253'">
+            </div>
+        </div>
+    </section>
+
+    <section id="sekilas">
+        <p class="p-a">Get to Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="sc">
+            <div class="pp-container">
+                <img src="./img/mi.png" alt="about" class="about-p">
+            </div>
+            <div class="about-detail">
+                <div class="about-container">
+                    <div class="about-detail">
+                        <img src="./img/konten1.jpeg" alt="arofan">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
