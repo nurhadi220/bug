@@ -49,7 +49,6 @@ a,
 }
 a{
   text-decoration:none;
-  text-position:none;
 }
 a:hover {
 color:pink;
@@ -180,13 +179,13 @@ a:hover{
 }
 
 /* isi */
-.pp-container {
+/* .pp-container {
   width: 300px;
   height: 300px;
   background-image: url('../img/images.jpeg');
   border-radius: 50%;
   animation-name: fadeIn;
-}
+} */
 .pp-container {
   height: 400px;
   width: 400px;
